@@ -5,7 +5,7 @@
 - [Full bit adder](tt_um_wokwi_413919666547418113/info.md) by Alan
 - [Light](tt_um_wokwi_413920340558577665/info.md) by Natnael Atnafu
 - [Half Adder](tt_um_wokwi_413920640800531457/info.md) by Janani P Srinivasan
-- [chip_fab](tt_um_wokwi_414118269335820289/info.md) by Aleksi
+- [chip\_fab](tt_um_wokwi_414118269335820289/info.md) by Aleksi
 - [LCA’s first Wokwi design](tt_um_wokwi_414120349028170753/info.md) by leahcorbett18
 - [my First WokWi Design](tt_um_wokwi_414120368966850561/info.md) by Mani Rayabarapu
 - [7-bit arbiter](tt_um_wokwi_414120435997105153/info.md) by Kira Tran
@@ -13,3 +13,4 @@
 - [rand](tt_um_wokwi_414120509472942081/info.md) by mahi
 - [gatesoup](tt_um_wokwi_414120513895838721/info.md) by Elio Bourcart
 - [UART TX](tt_um_wokwi_414122607025630209/info.md) by Shaokai Lin
+- [Logic Gates 7-Segment Display](tt_um_wokwi_413923045171059713/info.md) by Abdul Karim Tamim

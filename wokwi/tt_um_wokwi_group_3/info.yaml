@@ -34,6 +34,7 @@ project:
     - "tt_um_wokwi_414120388391730177/wokwi/tt_um_wokwi_414120388391730177.v"
     - "tt_um_wokwi_414121715329142785/wokwi/tt_um_wokwi_414121715329142785.v"
     - "tt_um_wokwi_414123795172381697/wokwi/tt_um_wokwi_414123795172381697.v"
+    - "tt_um_wokwi_414120696731857921/wokwi/tt_um_wokwi_414120696731857921.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:

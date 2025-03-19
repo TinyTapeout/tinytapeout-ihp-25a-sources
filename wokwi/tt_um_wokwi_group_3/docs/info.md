@@ -13,3 +13,4 @@
 - [adder-tt09](tt_um_wokwi_414120388391730177/info.md) by Philip Solomatnikov
 - [Sigma-Delta ADC](tt_um_wokwi_414121715329142785/info.md) by Martin Schoeberl
 - [TinySnake](tt_um_wokwi_414123795172381697/info.md) by Ken Pettit
+- [Broken Two Bit Adder](tt_um_wokwi_414120696731857921/info.md) by Mann
