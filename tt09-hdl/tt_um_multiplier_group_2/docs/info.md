@@ -1,0 +1,16 @@
+- [Array Multiplier](p16/info.md) by Rebecca Boadu & Sarah Herrera
+- [4-bit Array Multiplier](p17/info.md) by Minjae Kim, Jiawei Ding
+- [4-bit-array-multiplier](p18/info.md) by HenryZ-ErickR
+- [Lab B Group 1 Array Multiplier](p19/info.md) by MarcAnthony Williams & Ivy Zheng
+- [Lab B Group 10 Array Multiplier](p20/info.md) by Abhinav and Annay
+- [ECE2204 4x4 Array Multiplier](p21/info.md) by Jack Li Bill Li
+- [Array Multiplier](p22/info.md) by Jaden Daily
+- [4x4 Array Multiplier](p23/info.md) by Marisol and Shahran
+- [4 by 4 Array Multiplier](p24/info.md) by Hanyuan (Bob) Huang
+- [4-bit Multiplier](p25/info.md) by Jeremy Kang, Idris Al-Wazani
+- [Lab C 4x4 Mult-Array](p26/info.md) by Justin Morris, Alexa
+- [4-bit Multiplier](p27/info.md) by Asfaq Fahim & Sreeja Ghose
+- [4-bit-multiplier](p28/info.md) by Eric Cheung, Bethel Sisay
+- [4bit multiplier](p29/info.md) by Kylian Yan
+- [ECE-UY 2204 4x4 Array Multiplier](p30/info.md) by Jane Manalu, Isabella Menshouse, KJ Moses
+- [4-bit Multiplier](p31/info.md) by Nick Pham, Nathan Macapinlac
