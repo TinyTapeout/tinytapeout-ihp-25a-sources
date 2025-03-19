@@ -589,6 +589,7 @@ jobs:
           - tt_um_sushi_demo
           - tt_um_synth_simple_mm
           - tt_um_tappu_tobias1012
+          - tt_um_tetrap_triggerer
           - tt_um_tiny_shader_mole99
           - tt_um_tinytapeout_logo_screensaver
           - tt_um_toivoh_demo_tt10
@@ -747,6 +748,7 @@ jobs:
           - tt_um_wokwi_group_10
           - tt_um_wokwi_group_11
           - tt_um_wokwi_group_12
+          - tt_um_wokwi_group_13
 
     runs-on: ubuntu-24.04
     env:
