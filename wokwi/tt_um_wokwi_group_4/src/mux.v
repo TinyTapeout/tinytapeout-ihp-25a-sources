@@ -25,14 +25,14 @@ module tt_um_wokwi_group_4(
   tt_um_wokwi_413920033033205761 proj__5 (.ui_in, .uo_out(proj_out[ 5]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   tt_um_wokwi_413920370058172417 proj__6 (.ui_in, .uo_out(proj_out[ 6]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   tt_um_wokwi_413920825278643201 proj__7 (.ui_in, .uo_out(proj_out[ 7]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  tt_um_wokwi_414107691971107841 proj__8 (.ui_in, .uo_out(proj_out[ 8]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  tt_um_wokwi_414120157271867393 proj__9 (.ui_in, .uo_out(proj_out[ 9]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  tt_um_wokwi_414120207283716097 proj_10 (.ui_in, .uo_out(proj_out[10]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  tt_um_wokwi_414120357164073985 proj_11 (.ui_in, .uo_out(proj_out[11]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  tt_um_wokwi_414120583702696961 proj_12 (.ui_in, .uo_out(proj_out[12]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  tt_um_wokwi_414121281003682817 proj_13 (.ui_in, .uo_out(proj_out[13]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  tt_um_wokwi_414124843472659457 proj_14 (.ui_in, .uo_out(proj_out[14]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  tt_um_wokwi_414122362169493505 proj_15 (.ui_in, .uo_out(proj_out[15]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
+  assign proj_out[8] = 0;
+  assign proj_out[9] = 0;
+  assign proj_out[10] = 0;
+  assign proj_out[11] = 0;
+  assign proj_out[12] = 0;
+  assign proj_out[13] = 0;
+  assign proj_out[14] = 0;
+  assign proj_out[15] = 0;
 
   assign uo_out = proj_out[sel];
   assign uio_out = 8'b0;
