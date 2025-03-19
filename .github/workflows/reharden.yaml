@@ -71,6 +71,7 @@ jobs:
           - tt_um_supermic_arghunter
           - tt_um_thexeno_rgbw_controller
           - tt_um_tmkong_rgb_mixer
+          - tt_um_toivoh_demo_tt08
           - tt_um_toivoh_demo_deluxe
           - tt_um_tommythorn_maxbw
           - tt_um_top
@@ -366,7 +367,6 @@ jobs:
           - tt_um_tiny_ternary_tapeout
           - tt_um_tiny_ternary_tapeout_csa
           - tt_um_tobimckellar_top
-          - tt_um_toivoh_demo_tt09
           - tt_um_toivoh_pio_ram_emu_example
           - tt_um_tommythorn_cgates
           - tt_um_tommythorn_workshop
