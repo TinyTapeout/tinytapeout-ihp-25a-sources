@@ -887,9 +887,6 @@ module tt_um_wokwi_413921836641882113(
     .b (net144),
     .out (net162)
   );
-  or_cell or80 (
-    .out ()
-  );
   or_cell or81 (
     .a (net147),
     .b (net153),
