@@ -49,24 +49,24 @@ module tt_um_wokwi_414122362169493505(
   assign uio_out[7] = 0;
   assign uio_oe[7] = 0;
 
-  nand_cell gate8 (
-    .a (net6),
-    .b (net1),
-    .out (net7)
+  sg13g2_nand2_2 gate8 (
+    .A (net6),
+    .B (net1),
+    .Y (net7)
   );
-  nand_cell gate9 (
-    .a (net6),
-    .b (net4),
-    .out (net3)
+  sg13g2_nand2_2 gate9 (
+    .A (net6),
+    .B (net4),
+    .Y (net3)
   );
-  nand_cell gate10 (
-    .a (net3),
-    .b (net7),
-    .out (net4)
+  sg13g2_nand2_2 gate10 (
+    .A (net3),
+    .B (net7),
+    .Y (net4)
   );
-  nand_cell gate7 (
-    .a (net2),
-    .b (net1),
-    .out (net6)
+  sg13g2_nand2_2 gate7 (
+    .A (net2),
+    .B (net1),
+    .Y (net6)
   );
 endmodule
