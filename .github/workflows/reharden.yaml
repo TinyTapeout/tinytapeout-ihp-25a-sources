@@ -15,11 +15,13 @@ jobs:
           - tt_um_a1k0n_vgadonut
           - tt_um_benpayne_ps2_decoder
           - tt_um_betz_morse_keyer
+          - tt_um_brailliance
           - tt_um_brandonramos_VGA_Pong_with_NES_Controllers
           - tt_um_bytex64_munch
           - tt_um_cattuto_sr_latch
           - tt_um_cejmu
           - tt_um_cfib_demo
+          - tt_um_clock_divider_arghunter
           - tt_um_comm_ic_bhavuk
           - tt_um_crispy_vga
           - tt_um_daosvik_aesinvsbox
@@ -30,23 +32,32 @@ jobs:
           - tt_um_dlmiles_poc_fskmodem_hdlctrx
           - tt_um_dlmiles_tt08_poc_uart
           - tt_um_dmtd_arghunter
+          - tt_um_dpmu
+          - tt_um_dpmunit
           - tt_um_edwintorok
+          - tt_um_Electom_cla_4bits
           - tt_um_emilian_muxpga
+          - tt_um_emmyxu_obstacle_detection
           - tt_um_ephrenm_tsal
           - tt_um_ezchips_calc
           - tt_um_faramire_rotary_ring_wrapper
           - tt_um_faramire_stopwatch
           - tt_um_favoritohjs_scroller
           - tt_um_find_the_damn_issue
+          - tt_um_fountaincoder_top_ad
           - tt_um_gfg_development_tinymandelbrot
           - tt_um_hack_cpu
           - tt_um_htfab_bouncy_capsule
           - tt_um_i2c_peripheral_stevej
           - tt_um_i2s_to_pwm_arghunter
+          - tt_um_JAC_EE_segdecode
           - tt_um_jayjaywong12
           - tt_um_jmack2201
           - tt_um_johshoff_metaballs
+          - tt_um_kapilan_alarm
+          - tt_um_kb2ghz_xalu
           - tt_um_LnL_SoC
+          - tt_um_mac
           - tt_um_mattvenn_rgb_mixer
           - tt_um_meriac_play_tune
           - tt_um_MichaelBell_canon
@@ -62,9 +73,12 @@ jobs:
           - tt_um_quarren42_demoscene_top
           - tt_um_ran_DanielZhu
           - tt_um_resfuzzy
+          - tt_um_Richard28277
+          - tt_um_ring_divider
           - tt_um_roy1707018
           - tt_um_samuelm_pwm_generator
           - tt_um_shuangyu_top
+          - tt_um_sign_addsub
           - tt_um_silice
           - tt_um_simon_cipher
           - tt_um_stochastic_addmultiply_CL123abc
@@ -75,11 +89,11 @@ jobs:
           - tt_um_toivoh_demo_deluxe
           - tt_um_tommythorn_maxbw
           - tt_um_top
-          - tt_um_tt08_hdl_group
           - tt_um_tt08_wirecube
           - tt_um_vga_cbtest
           - tt_um_vga_glyph_mode
           - tt_um_whynot
+          - tt_um_wokwi_407306064811090945
           - tt_um_yuri_panchul_adder_with_flow_control
           - tt_um_yuri_panchul_schoolriscv_cpu_with_fibonacci_program
           - tt_um_yuri_panchul_sea_battle_vga_game

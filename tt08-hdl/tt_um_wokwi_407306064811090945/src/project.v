@@ -50,7 +50,7 @@ module clkgen_2x #(parameter N=4) (input clk, output clk2x);
     orgate og(.A(pe),.B(ne),.Y(clk2x));
 endmodule
 
-module dff_v2(input d,rst_n,clk, output q);
+module dff(input d,rst_n,clk, output q);
   `ifdef COCOTB_SIM
     reg q;
     always @(posedge clk or negedge rst_n)
@@ -72,7 +72,7 @@ endmodule
 module ddr_input #(parameter N=4) (input rst_n, clk, d, output q);
 
   clkgen_2x #(.N(N)) clkgen_2x(.clk(clk),.clk2x(clk2x));
-  dff_v2                dff(
+  dff                dff(
      .rst_n(rst_n),
      .d(d),
      .clk(clk2x),
@@ -95,7 +95,7 @@ module tt_um_wokwi_407306064811090945(
   assign uio_out = 0;
   assign uio_oe  = 0;
 
-  dff_v2 d0(.d(ui_in[4]),.rst_n(rst_n),.clk(clk),.q(uo_out[4]));
+  dff d0(.d(ui_in[4]),.rst_n(rst_n),.clk(clk),.q(uo_out[4]));
 
   ddr_input #(.N(1)) ddr_input1( .rst_n(rst_n), .d(ui_in[0]), .clk(clk), .q(uo_out[0]) );
   ddr_input #(.N(3)) ddr_input3( .rst_n(rst_n), .d(ui_in[1]), .clk(clk), .q(uo_out[1]) );

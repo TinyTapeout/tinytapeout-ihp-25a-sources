@@ -1,5 +1,5 @@
 `default_nettype none
-module dff_v1 (
+module dff (
     input wire clk,    // Clock signal
     input wire d,      // Data input
     output reg q = 1,      // Output signal

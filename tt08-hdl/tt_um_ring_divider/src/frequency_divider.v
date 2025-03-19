@@ -19,7 +19,7 @@ module frequency_divider (
     wire d7, q7, q7_bar;
 
     // First D Flip-Flop for clk_out2 (frequency / 2)
-    dff_v1 dff1 (
+    dff dff1 (
         .clk(clk_in),
         .d(d1),
         .q(q1),
@@ -31,7 +31,7 @@ module frequency_divider (
     assign clk_out2 = q1;
 
     // Second D Flip-Flop for clk_out4 (frequency / 4)
-    dff_v1 dff2 (
+    dff dff2 (
         .clk(clk_out2),  // clk_out2 is used as clock input for the second DFF
         .d(d2),
         .q(q2),
@@ -43,7 +43,7 @@ module frequency_divider (
     assign clk_out4 = q2;
     
     // Third D Flip-Flop for clk_out8 (frequency / 8)
-    dff_v1 dff3 (
+    dff dff3 (
         .clk(clk_out4),  // clk_out4 is used as clock input for the third DFF
         .d(d3),
         .q(q3),
@@ -55,7 +55,7 @@ module frequency_divider (
     assign clk_out8 = q3;
     
      // Fourth D Flip-Flop for clk_out16 (frequency / 16)
-    dff_v1 dff4 (
+    dff dff4 (
         .clk(clk_out8),  // clk_out8 is used as clock input for the fourth DFF
         .d(d4),
         .q(q4),
@@ -67,7 +67,7 @@ module frequency_divider (
     assign clk_out16 = q4;
     
     // Fifth D Flip-Flop for clk_out32 (frequency / 32)
-    dff_v1 dff5 (
+    dff dff5 (
         .clk(clk_out16),  // clk_out16 is used as clock input for the fifth DFF
         .d(d5),
         .q(q5),
@@ -79,7 +79,7 @@ module frequency_divider (
     assign clk_out32 = q5;
     
     // Sixth D Flip-Flop for clk_out64 (frequency / 64)
-    dff_v1 dff6 (
+    dff dff6 (
         .clk(clk_out32),  // clk_out32 is used as clock input for the sixth DFF
         .d(d6),
         .q(q6),
@@ -91,7 +91,7 @@ module frequency_divider (
     assign clk_out64 = q6;
     
     // Seventh D Flip-Flop for clk_out128 (frequency / 128)
-    dff_v1 dff7 (
+    dff dff7 (
         .clk(clk_out64),  // clk_out64 is used as clock input for the seventh DFF
         .d(d7),
         .q(q7),
