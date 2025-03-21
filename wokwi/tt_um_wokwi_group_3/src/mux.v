@@ -28,8 +28,7 @@ module tt_um_wokwi_group_3(
   tt_um_wokwi_413923245817165825 proj__8 (.ui_in, .uo_out(proj_out[ 8]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   tt_um_wokwi_413923639862662145 proj__9 (.ui_in, .uo_out(proj_out[ 9]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   tt_um_wokwi_414120299211357185 proj_10 (.ui_in, .uo_out(proj_out[10]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  //tt_um_wokwi_414120303651028993 proj_11 (.ui_in, .uo_out(proj_out[11]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  assign proj_out[11] = 0;
+  tt_um_wokwi_414120303651028993 proj_11 (.ui_in, .uo_out(proj_out[11]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   tt_um_wokwi_414120388391730177 proj_12 (.ui_in, .uo_out(proj_out[12]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   tt_um_wokwi_414121715329142785 proj_13 (.ui_in, .uo_out(proj_out[13]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   tt_um_wokwi_414123795172381697 proj_14 (.ui_in, .uo_out(proj_out[14]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);

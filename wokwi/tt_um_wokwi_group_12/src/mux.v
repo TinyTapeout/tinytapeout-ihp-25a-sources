@@ -31,8 +31,7 @@ module tt_um_wokwi_group_12(
   tt_um_wokwi_408118380088342529 proj_11 (.ui_in, .uo_out(proj_out[11]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   tt_um_wokwi_408216451206371329 proj_12 (.ui_in, .uo_out(proj_out[12]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   tt_um_wokwi_408231820749720577 proj_13 (.ui_in, .uo_out(proj_out[13]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  //tt_um_wokwi_408237988946759681 proj_14 (.ui_in, .uo_out(proj_out[14]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
-  assign proj_out[14] = 8'b0;
+  tt_um_wokwi_408237988946759681 proj_14 (.ui_in, .uo_out(proj_out[14]), .uio_in(0), .uio_out(), .uio_oe(), .ena, .clk, .rst_n);
   assign proj_out[15] = 8'b0;
 
   assign uo_out = proj_out[sel];

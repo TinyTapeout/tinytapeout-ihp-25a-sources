@@ -61,16 +61,10 @@ module tt_um_wokwi_414120201832165377(
   assign uio_out[7] = 0;
   assign uio_oe[7] = 0;
 
-  or_cell or1 (
-    .out ()
-  );
   or_cell or2 (
     .a (net17),
     .b (net18),
     .out (net10)
-  );
-  or_cell or3 (
-    .out ()
   );
   or_cell or4 (
     .a (net5),

@@ -60,10 +60,6 @@ module tt_um_wokwi_414124597390729217(
   assign uio_out[7] = 0;
   assign uio_oe[7] = 0;
 
-  dff_cell flop1 (
-    .q (),
-    .notq ()
-  );
   and_cell and1 (
     .a (net1),
     .b (net2),

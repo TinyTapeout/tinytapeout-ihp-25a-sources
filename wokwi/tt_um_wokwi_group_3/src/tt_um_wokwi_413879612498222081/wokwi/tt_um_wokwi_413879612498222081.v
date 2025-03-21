@@ -68,6 +68,7 @@ module tt_um_wokwi_413879612498222081(
     .d (net3),
     .clk (net1),
     .r (net2),
+    .s (0),
     .q (),
     .notq (net11)
   );
@@ -75,6 +76,7 @@ module tt_um_wokwi_413879612498222081(
     .d (net4),
     .clk (net1),
     .r (net2),
+    .s (0),
     .q (),
     .notq (net12)
   );
@@ -82,6 +84,7 @@ module tt_um_wokwi_413879612498222081(
     .d (net5),
     .clk (net1),
     .r (net2),
+    .s (0),
     .q (),
     .notq (net13)
   );
@@ -89,6 +92,7 @@ module tt_um_wokwi_413879612498222081(
     .d (net6),
     .clk (net1),
     .r (net2),
+    .s (0),
     .q (),
     .notq (net14)
   );
@@ -96,6 +100,7 @@ module tt_um_wokwi_413879612498222081(
     .d (net7),
     .clk (net1),
     .r (net2),
+    .s (0),
     .q (net15),
     .notq ()
   );
@@ -103,17 +108,15 @@ module tt_um_wokwi_413879612498222081(
     .d (net8),
     .clk (net1),
     .r (net2),
+    .s (0),
     .q (net16),
-    .notq ()
-  );
-  dffsr_cell flop7 (
-    .q (),
     .notq ()
   );
   dffsr_cell flop8 (
     .d (net9),
     .clk (net1),
     .r (net2),
+    .s (0),
     .q (net17),
     .notq ()
   );
@@ -121,6 +124,7 @@ module tt_um_wokwi_413879612498222081(
     .d (net10),
     .clk (net1),
     .r (net2),
+    .s (0),
     .q (net18),
     .notq ()
   );

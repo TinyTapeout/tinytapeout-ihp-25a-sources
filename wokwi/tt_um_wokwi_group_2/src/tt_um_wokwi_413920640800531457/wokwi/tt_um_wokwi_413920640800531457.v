@@ -50,9 +50,6 @@ module tt_um_wokwi_413920640800531457(
   assign uio_out[7] = 0;
   assign uio_oe[7] = 0;
 
-  and_cell and1 (
-    .out ()
-  );
   xor_cell xor1 (
     .a (net1),
     .b (net2),

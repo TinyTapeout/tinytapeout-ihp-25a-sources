@@ -61,9 +61,6 @@ module tt_um_wokwi_413871526879619073(
     .sel (net6),
     .out (net13)
   );
-  mux_cell mux2 (
-    .out ()
-  );
   mux_cell mux3 (
     .a (net13),
     .b (net14),
