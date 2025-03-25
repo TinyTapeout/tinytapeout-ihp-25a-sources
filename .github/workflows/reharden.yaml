@@ -222,7 +222,6 @@ jobs:
       fail-fast: false
       matrix:
         project:
-          - tt_um_gfcwfzkm_scope_bfh_mht1_3
           - tt_um_anders_tt_6502
 
     runs-on: ubuntu-24.04
