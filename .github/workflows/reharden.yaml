@@ -550,6 +550,7 @@ jobs:
             tt10-hdl/${{ matrix.project }}/LICENSE
 
   reharden-wokwi:
+    if: false
     strategy:
       fail-fast: false
       matrix:
