@@ -3,6 +3,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+ // verilator lint_off WIDTHEXPAND
+ // verilator lint_off WIDTHTRUNC
+
 `default_nettype none
 
   typedef enum logic [3:0] {FETCH1 = 4'b0000, FETCH2, FETCH3, FETCH4,
@@ -204,6 +207,14 @@ module outputlogic(input statetype state,
           begin
             pcwrite  = 1;
             pcsrc    = 2'b10;
+          end
+        default:
+          begin
+            memread = 0;
+            memwrite = 0;
+            alusrca = 0;
+            alusrcb = 2'b00;
+            aluop = 2'b00;
           end
       endcase
     end
