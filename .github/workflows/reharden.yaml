@@ -133,7 +133,7 @@ jobs:
       fail-fast: false
       matrix:
         project:
-          - tt_um__kwr_lfsr__top
+          - tt_um_urish_giant_ringosc
 
     runs-on: ubuntu-24.04
     env:
