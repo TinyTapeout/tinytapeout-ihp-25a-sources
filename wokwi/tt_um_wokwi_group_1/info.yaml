@@ -19,6 +19,7 @@ project:
   source_files:
     - "mux.v"
     - "cells.v"
+    - "tt_um_subtile_factory_test.v"
     - "tt_um_wokwi_413387481972305921/wokwi/tt_um_wokwi_413387481972305921.v"
     - "tt_um_wokwi_413871526879619073/wokwi/tt_um_wokwi_413871526879619073.v"
     - "tt_um_wokwi_413917903548951553/wokwi/tt_um_wokwi_413917903548951553.v"
